@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E1D8752-C547-3201-CE8F-06BBEBCE10DC" name="Trabajador">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:15:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="8C7EBA5A-344C-7B64-6B9E-B0ABFB492082">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:16:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="C1D0B75D-6781-0AC2-AC84-0155C3B7BAE8">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:16:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido1" id="EEF25585-331E-E0F8-8BFF-612E31CB2C0E">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:17:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido2" id="A070C3D3-1487-72E6-5504-BCDA24295947">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:17:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaDeNacimiento" id="A82D3D51-62E9-7120-764D-BF27E9A6FF64">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:17:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="FC73F2D5-8D91-AE23-07B6-D5DC82B45763">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:18:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria" id="37A03E78-B0B6-3486-3DA6-A8E917A50032">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:19:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cod_Centro" id="B7D437F8-5021-72A2-50E0-33760EC83F4F">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:48:48 UTC</createdTime>
+<generatorID>A82F5D6A-28A0-082F-9D48-F25C4829DAA4</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<referedAttribute>4082F03B-38F0-46A2-661F-C43DFA8E7234</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="278B356D-5E2D-BBFC-BC75-9F2007751A78" name="Trabajador PK">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:16:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C7EBA5A-344C-7B64-6B9E-B0ABFB492082</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
