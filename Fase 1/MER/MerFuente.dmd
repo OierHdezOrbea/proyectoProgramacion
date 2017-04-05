@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MerFuente" id="04EA36A8-BC40-EE0B-933C-5FCB9EE57977" version="3.5">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:08:54 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>04EA36A8-BC40-EE0B-933C-5FCB9EE57977</designId>
+</OSDM_Design>

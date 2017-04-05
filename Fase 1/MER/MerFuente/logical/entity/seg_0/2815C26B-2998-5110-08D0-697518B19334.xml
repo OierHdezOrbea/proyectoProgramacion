@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2815C26B-2998-5110-08D0-697518B19334" name="Usuario">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:22:38 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdUsuario" id="A3DDCFD2-3CFC-4599-7C64-DC6632566B44">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:23:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contraseña" id="B9BA6648-F561-71D1-F3EA-283D80D9B890">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:23:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="354B1E98-E073-B02F-3DC3-0D23E81151BC">
+<createdBy>1gbd12</createdBy>
+<createdTime>2017-04-05 10:49:27 UTC</createdTime>
+<generatorID>389BFCB4-8CCE-C2B7-34AB-8EBF6B79C79A</generatorID>
+<ownerDesignName>MerFuente</ownerDesignName>
+<engineerTo>
+<item key="B1E80252-2C4F-DBB6-8BCC-C2F4EF5DB0D2" value="true"/>
+</engineerTo>
+<referedAttribute>8C7EBA5A-344C-7B64-6B9E-B0ABFB492082</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
